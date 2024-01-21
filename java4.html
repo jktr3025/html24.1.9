@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="java">
+        //변수선언
+
+        // var array = ["포도", "사과", "바나나", "오렌지"]
+
+        // for(var i = 0 ; i < array.length ; i++){
+        //     document.write(array[i] + "<br>")
+        // }//for
+        // for(var j = array.length - 1 ; j >=0; j--){
+        //     document.write(array[j] + "<br>")
+        // }
+
+        // var startTime = new Date().getTime()
+        // console.log(startTime)
+        // //getTime : 시분초 구하는 명령어
+        // //시분초가 초 단위로 계산되어 나옴
+        // //
+        // for(var cps = 0; new Date().getTime() < startTime + 1000 ; cps++){
+        //     document.write("1초당 연산횟수  : " + cps)
+        // }
+
+            // for(var i in array){
+            //     document.write(array[i] + "<br>")
+            // }
+            //for문이라 ()안에 초기값; 수식; 증감값 써줘야하는데
+            //var i in array쓰면 array 안에서 for문을 실행하라는 뜻
+
+            // for(var i = 0 ; true ; i++){
+            //     document.write(i + "번째를 반복합니다")
+            //     if(!confirm("계속하시겠습니까?")){
+            //         break;
+            //     }//if
+            // }//for
+            // document.write("프로그램 종료")
+
+            // var output = 0;
+            // for(var i = 1 ; i <= 10 ; i++){
+            //     if(i % 2 == 0){
+            //         continue;
+            //     }//if
+            //         output += 1;
+            // }//for
+            // document.write(output)
+
+            // var array1 = [1,2,3,4]
+            // for(var i in array){
+            //     console.log(array1[i])
+            // }
+            // for(const element of [5,6,7,8]){
+            //     console.log(`요소는 $(element)입니다`)
+            // }
+
+            //1~100까지 합 구하는 프로그램
+            // var hap = 0
+            // for(var i = 1; i < 101 ; i++){
+            //     hap = hap + i
+            // }
+            // document.write("합 : " + hap + "<br>")
+
+            //입력받은 두 숫자 합 구하기
+            var hap = 0
+            var i = 1
+            var num1 = Number(prompt("숫자1를 입력해주세요")) 
+            var num2 = Number(prompt("숫자2를 입력해주세요")) 
+            for (var i = num1 ; i <= num2; i++){
+                hap = hap + i
+                document.write("합 : " + hap + "<br>")
+            }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

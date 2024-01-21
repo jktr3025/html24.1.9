@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="java">
+        // var output = "안녕하세요".indexOf("하세")
+        // console.log(output)
+
+    //indexOf는 해당 문자가 있으면 양수값으로 위치 표시 (0부터 세줌), 없으면 -1로 표시
+
+    var email = prompt("이메일을 입력하세요");
+
+    var i_email = email.indexOf("@");
+
+    console.log("i_mail : ", i_email)
+
+    if(i_email >= 4){
+        document.write("바르게 입력하셨습니다.")
+    }else{
+        document.write("잘 못 입력하셨습니다.")
+    }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

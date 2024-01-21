@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="java">
+        // //사용자에게 입력 받아 양수 , 0 , 음수 구분하는 프로그램
+        // var num = prompt("숫자를 입력하세요", "음수,0,양수")
+        // //prompt는 숫자를 입력하지만 문자로 인식됨
+        // console.log(typeof(num))
+        // //typeof 입력한 내용이 문자인지 숫자인지 등 구분해주는 명령어
+        // //string이면 문자 number이면 숫자
+
+        // var numNum = Number(num)
+        // // var num = Number(prompt("숫자를 입력하세요", "음수,0,양수"))
+        // //Number은 문자로 인식되는 숫자를 숫자로 변환해서 추출해주는 명령어
+
+        // console.log(typeof(numNum))
+
+        // if(numNum > 0 ){
+        //     document.write("양수입니다")
+        // }else if(numNum = 0 ){
+        //     document.write("0입니다")
+        // }else{
+        //     document.write("음수입니다")
+        // }
+
+        // //switch는 조건식에 범위(<,>등)을 사용할 수 없어서 여기서는 사용 불가
+
+        // //사용자에게 숫자를 받아서 짝수 홀수를 구분하는 프로그램
+        // var odd =Number(prompt("숫자를 입력하세요")) 
+        // console.log(typeof(odd))
+        // // if(odd % 2 == 1){
+        // //     document.write("홀수입니다")
+        // // }else{
+        // //     document.write("짝수입니다")
+
+        // // }
+
+        // switch(odd % 2){
+        //     case 0 :
+        //     document.write("짝수입니다");break;
+        //     case 1 :
+        //     document.write("홀수입니다");break;
+        // }
+
+
+        //사용자에게 국어, 영어, 수학 점수를 입력 받아 
+        //평균을 구한 뒤 수우미양가를 구별하는 프로그램 90 80 70 60 50
+
+        // var kuk = Number(prompt("국어점수를 입력하세요"))
+        // var eng = Number(prompt("영어점수를 입력하세요"))
+        // var mat = Number(prompt("수학점수를 입력하세요"))
+
+        // var pg =( kuk + eng + mat) / 3
+        // console.log("pg : ", pg)
+
+        // if(pg >=90){
+        //     document.write("수")
+        // }else if(pg >=80){
+        //     document.write("우")
+        // }else if(pg >=70){
+        //     document.write("미")
+        // }else if(pg >=60){
+        //     document.write("양")
+        // }else{
+        //     document.write("가")            
+        // }
+
+        // var n_pg =Math.floor(pg / 10)         
+        // console.log("n_pg : ", n_pg)
+        // switch(n_pg){
+        //     case 10 :
+        //     case 9 :
+        //     document.write("수입니다"); break;
+        //     case 8 :
+        //     document.write("우입니다"); break;
+        //     case 7 :
+        //     document.write("미입니다"); break;
+        //     case 6 :
+        //     document.write("양입니다"); break;
+        //     default : 
+        //     document.write("가입니다"); break;
+        // }
+
+        //삼항 연산자
+        //조건식 ? 참일때 처리문 : 거짓일 때 처리문;
+        //true 는 0으로 처리하고 false는 1로 처리
+        j = 10;
+        (j % 2 == 0 ) ? document.write("짝수입니다") : document.write("홀수입니다");
+        (j % 2 ) ? document.write("홀수입니다") : document.write("짝수입니다");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
